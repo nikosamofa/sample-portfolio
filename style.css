@@ -1,0 +1,135 @@
+/* Imported fonts for styling */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Hind+Madurai:wght@300&family=Michroma&display=swap');
+
+/*General styles  */
+body{
+  margin: 0;
+  
+}
+h1{
+  font-family: 'Architects Daughter', cursive;
+  letter-spacing: 6px;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 10px;
+  
+}
+h2,h3{
+  font-family: 'Michroma', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+main p, ul, a {
+  font-family: 'Hind Madurai', sans-serif;
+}
+main a{
+  text-decoration: none;
+  font-weight: bold;
+  
+
+}
+
+ul{
+  list-style-type: none;
+  
+}
+img{
+  width:100%;
+}
+/* image curve class */
+.curved{
+  border-radius: 8px;
+}
+/* header elements styling  */
+header{
+  display: block;
+  margin-bottom: 40px;
+  background-color: black; 
+  color:white;
+  
+}
+header nav{
+  margin: 0 150;
+  width:100%;
+  text-align: center; 
+ 
+  
+}
+/* link styling in the header */
+header nav ul li a:link{
+  color: white;
+  text-decoration: none;
+}
+header nav ul li a:visited{
+  text-decoration: none;
+  color: white;
+}
+header nav ul li a:hover{
+text-decoration: underline white;
+}
+header nav ul li a:active{
+color: white;
+text-decoration: none;
+}
+header nav ul li{
+  display: inline-block;
+  text-align: center;
+  margin: 0 20px;
+  letter-spacing: 3px;
+}
+header h2{
+  margin:0;
+  padding: 10px;
+  letter-spacing: 5px;
+}
+/* footer styling  */
+footer{
+  background-color: black;
+  padding: 30px;
+  color: white; 
+  text-align: center;
+  font-family: 'Hind Madurai', sans-serif; 
+}
+/* first section styling */
+
+.intro{
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+/* flex box styling  mobile-first design */
+.wrapper{
+  width: 100%;
+  margin: auto
+}
+.group{
+  display: flex;
+  flex-direction: column;
+  align-content:  center;
+  margin: 10px 70px;
+  justify-content: center;
+}
+.item{
+  flex: 1;
+  margin: 10px;
+  justify-content: center;
+  padding: 10 0;
+  
+}
+@media all and (min-width: 800px) {
+  .group{
+    flex-direction: row;    
+  }
+   .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+}
+.map{
+  margin: 0;
+  width: auto;
+
+
+}
